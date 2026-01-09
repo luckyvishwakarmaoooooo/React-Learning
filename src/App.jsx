@@ -5,7 +5,14 @@ import Navbar from './Components/Navbar'
 const App = () => {
   return (
     <>
-    <Card />
+    <Card 
+        productName_1="Ceviche"
+        productImg_1="/Images/product1.avif"
+      />
+    <Card 
+        productName_1="Nasi Lemak"
+        productImg_1="/Images/orkun-orcan-Bm8radCPG0I-unsplash.jpg"
+      />
     </>
  )
 }
